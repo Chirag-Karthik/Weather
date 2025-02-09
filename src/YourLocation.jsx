@@ -13,6 +13,8 @@ export default function YourLocation(){
     const [visibility, setVisibility] = useState(null);
     const [uvIndex, setUvIndex] = useState(null);
     const [time, setTime] = useState("");
+
+    const API_KEY = import.meta.env.VITE_WEATHER_API_KEY
     
 
 
@@ -28,7 +30,7 @@ export default function YourLocation(){
       }, []);
 
       useEffect(() => {
-        fetch(`https://api.weatherapi.com/v1/current.json?key=123389a481a84c1689e154420250302&q=${location.toLowerCase()}&aqi=no`)        
+        fetch(`https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${location}&aqi=no`)        
          .then((res) => res.json())
          .then((data) =>{
            setTemp(data.current.temp_c);
