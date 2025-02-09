@@ -45,7 +45,7 @@ export default function CustomLocation(){
             <div className="weather-condition1">
               <h1 className="temp1">🌡️{temp} °C</h1>
               <h2 className="precipitation1">🌧️ Precipitation: {precipitation} mm</h2>
-              <h2 className="humidity1">💧Humidity: {humidity} g/m^3</h2>
+              <h2 className="humidity1">💧Humidity: {humidity} %</h2>
               <h2 className="visibility1">👁 Visibility: {visibility} KM</h2>
               <h2 className="clouds1">☁️ Clouds: {clouds}</h2>
               <h2 className="uvindex1">☀️ UV Index: {uvIndex}</h2>

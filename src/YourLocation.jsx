@@ -52,7 +52,7 @@ export default function YourLocation(){
       <div className="weather-condition">
         <h1 className="temp">🌡️{temp} °C</h1>
         <h2 className="precipitation">🌧️ Precipitation: {precipitation} mm</h2>
-        <h2 className="humidity">💧Humidity: {humidity} g/m^3</h2>
+        <h2 className="humidity">💧Humidity: {humidity} %</h2>
         <h2 className="visibility">👁 Visibility: {visibility} KM</h2>
         <h2 className="clouds">☁️ Clouds: {clouds}</h2>
         <h2 className="uvindex">☀️ UV Index: {uvIndex}</h2>
