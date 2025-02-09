@@ -1,0 +1,160 @@
+/* Global styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Weather container */
+.weather {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Time & location */
+.time {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.location {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Weather details */
+.weather-condition {
+  margin-top: 20px;
+}
+
+.temp {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.precipitation,
+.humidity,
+.visibility,
+.clouds,
+.uvindex {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+/* Forecast container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 8px 12px;
+  margin-top: 20px;
+  gap: 3px;
+}
+
+.cast {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 5px;
+  white-space: nowrap;
+}
+
+.img {
+  width: 45px;
+  height: 50px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  background: linear-gradient(135deg, #4a90e2, #2a5298);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #2a5298, #4a90e2);
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+/* *{
+  margin: 0px;
+  padding: 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.time{
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 2rem;
+  padding-right: 2rem;
+}
+
+.location{
+  font-size: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+.temp{
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+.precipitation,.humidity,.visibility,.clouds,.uvindex,.cast,.img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+.weather-condition{
+  display: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -100 px
+}
+
+.img {
+
+  height: auto;
+} */

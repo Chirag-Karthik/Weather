@@ -1,0 +1,125 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 20px;
+    width: 360px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+  }
+  
+  /* Input Field */
+  .location1 {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Submit Button */
+  .location-submit1 {
+    background: linear-gradient(135deg, #4a90e2, #2a5298);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 5px;
+  }
+  
+  .location-submit1:hover {
+    background: linear-gradient(135deg, #2a5298, #4a90e2);
+    transform: scale(1.05);
+  }
+  
+  /* Weather Information */
+  .time1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 15px;
+  }
+  
+  .location1 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Weather Conditions */
+  .weather-condition1 {
+    margin-top: 20px;
+  }
+  
+  .temp1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .precipitation1,
+  .humidity1,
+  .visibility1,
+  .clouds1,
+  .uvindex1 {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* Forecast Box */
+  .container1:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 8px 12px;
+    width: 90%;
+    margin-top: 15px;
+  }
+  
+  .cast1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5px;
+    white-space: nowrap;
+  }
+  
+  /* Weather Icon */
+  .img1 {
+    width: 45px;
+    height: 50px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 400px) {
+    .container1 {
+      width: 95%;
+    }
+  }
+  
